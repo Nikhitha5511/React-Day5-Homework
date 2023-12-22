@@ -1,0 +1,58 @@
+body{
+  background-color:rgb(247, 231, 234);
+}
+
+.mainContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+h2{
+  color:green;
+}
+input{
+  width:55px;
+  height:28px;
+  margin:6px;
+  border: none;
+  border-radius: 5px;
+}
+span{
+  font-size: 20px;
+}
+button{
+  width:120px;
+  height:38px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(213, 172, 250);
+  color:white;
+  font-weight: bold;
+  font-size: 19px;
+  padding:3px;
+}
+@keyframes example {
+  to {
+    transform: scaleX(0);
+  }
+  from {
+    transform: scaleX(1);  
+  }
+}
+
+h2{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+.generatedText{
+  width:650px;
+  height:auto;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'TimesNewRoman'
+}
